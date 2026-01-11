@@ -65,7 +65,8 @@ def generate_highlights(
     # All conversations section
     for conv in sorted_convs:
         time_str = format_time_local(conv.started_at, config.timezone)
-        line = f"- {time_str} — {conv.title} → [[{date}]]"
+        heading = f"{time_str} — {conv.title} (omi:{conv.id})"
+        line = f"- {time_str} — {conv.title} → [[{date}#{heading}]]"
 
         if conv.id in notable_ids:
             event_filename = get_event_filename(conv, config).replace(".md", "")
