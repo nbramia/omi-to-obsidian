@@ -1,0 +1,153 @@
+[
+  {
+    "id": "conv_20260110_0001",
+    "created_at": "2026-01-10T13:50:00Z",
+    "started_at": "2026-01-10T13:50:00Z",
+    "finished_at": "2026-01-10T14:10:00Z",
+    "language": "en",
+    "source": "omi",
+    "structured": {
+      "title": "Feature Discussion",
+      "overview": "Brainstorming session for new features and prioritization for the next sprint.",
+      "emoji": "💼",
+      "category": "business",
+      "action_items": [
+        {
+          "description": "Create mockups for new UI",
+          "completed": false,
+          "created_at": "2026-01-10T14:10:00Z",
+          "updated_at": "2026-01-10T14:10:00Z",
+          "due_at": null,
+          "completed_at": null
+        }
+      ],
+      "events": []
+    },
+    "geolocation": {
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "address": "New York, NY, USA",
+      "google_place_id": "ChIJOwg_06VPwokRYv534QaPC8g",
+      "location_type": "locality"
+    },
+    "transcript_segments": [
+      {
+        "speaker": "SPEAKER_00",
+        "start": 0.0,
+        "end": 9.2,
+        "text": "Okay, let's talk about the next sprint and what we can realistically ship.",
+        "is_user": true,
+        "person_id": null
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "start": 9.2,
+        "end": 20.0,
+        "text": "I think the highest leverage is improving onboarding and reducing drop-off.",
+        "is_user": false,
+        "person_id": null
+      },
+      {
+        "speaker": "SPEAKER_00",
+        "start": 20.0,
+        "end": 33.5,
+        "text": "Agreed. Let's define what good looks like and sketch the flow.",
+        "is_user": true,
+        "person_id": null
+      }
+    ]
+  },
+  {
+    "id": "conv_20260110_0002",
+    "created_at": "2026-01-10T15:05:00Z",
+    "started_at": "2026-01-10T15:05:00Z",
+    "finished_at": "2026-01-10T15:14:30Z",
+    "language": "en",
+    "source": "omi",
+    "structured": {
+      "title": "Quick Check-in",
+      "overview": "Short status check-in about errands and weekend plans.",
+      "emoji": "🗒️",
+      "category": "personal",
+      "action_items": [],
+      "events": []
+    },
+    "geolocation": null,
+    "transcript_segments": [
+      {
+        "speaker": "SPEAKER_00",
+        "start": 0.0,
+        "end": 8.7,
+        "text": "Let's keep it quick—what are the top priorities for today?",
+        "is_user": true,
+        "person_id": null
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "start": 8.7,
+        "end": 16.9,
+        "text": "Groceries, then I'll swing by the pharmacy.",
+        "is_user": false,
+        "person_id": null
+      }
+    ]
+  },
+  {
+    "id": "conv_20260110_0003",
+    "created_at": "2026-01-10T16:00:00Z",
+    "started_at": "2026-01-10T16:00:00Z",
+    "finished_at": "2026-01-10T16:55:00Z",
+    "language": "en",
+    "source": "omi",
+    "structured": {
+      "title": "Therapy Session",
+      "overview": "Therapy session focusing on stress patterns, boundaries, and recovery habits.",
+      "emoji": "🧠",
+      "category": "personal",
+      "action_items": [
+        {
+          "description": "Journal for 10 minutes after work at least 3 days this week",
+          "completed": false,
+          "created_at": "2026-01-10T16:55:00Z",
+          "updated_at": "2026-01-10T16:55:00Z",
+          "due_at": null,
+          "completed_at": null
+        },
+        {
+          "description": "Schedule next therapy session",
+          "completed": true,
+          "created_at": "2026-01-10T16:55:00Z",
+          "updated_at": "2026-01-10T17:02:00Z",
+          "due_at": null,
+          "completed_at": "2026-01-10T17:02:00Z"
+        }
+      ],
+      "events": []
+    },
+    "geolocation": {
+      "latitude": 40.7411,
+      "longitude": -73.9897,
+      "address": "Manhattan, NY, USA",
+      "google_place_id": null,
+      "location_type": "locality"
+    },
+    "transcript_segments": [
+      {
+        "speaker": "SPEAKER_00",
+        "start": 0.0,
+        "end": 11.3,
+        "text": "I want to talk about how I keep defaulting to overwork when I feel anxious.",
+        "is_user": true,
+        "person_id": null
+      },
+      {
+        "speaker": "SPEAKER_01",
+        "start": 11.3,
+        "end": 24.8,
+        "text": "Let's map the trigger and the story you tell yourself in those moments.",
+        "is_user": false,
+        "person_id": null
+      }
+    ]
+  }
+]

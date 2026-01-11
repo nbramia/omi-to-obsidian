@@ -1,0 +1,110 @@
+[
+  {
+    "id": "conv_missing_structured",
+    "created_at": "2026-01-10T19:00:00Z",
+    "started_at": "2026-01-10T19:00:00Z",
+    "finished_at": "2026-01-10T19:05:00Z",
+    "language": "en",
+    "source": "omi",
+    "structured": null,
+    "geolocation": null,
+    "transcript_segments": [
+      {
+        "speaker": "SPEAKER_00",
+        "start": 0.0,
+        "end": 4.0,
+        "text": "This record has no structured output for some reason.",
+        "is_user": true,
+        "person_id": null
+      }
+    ]
+  },
+  {
+    "id": "conv_no_transcript_segments",
+    "created_at": "2026-01-10T20:00:00Z",
+    "started_at": "2026-01-10T20:00:00Z",
+    "finished_at": "2026-01-10T20:10:00Z",
+    "language": "en",
+    "source": "omi",
+    "structured": {
+      "title": "No Transcript Returned",
+      "overview": "Structured exists but transcript segments are missing.",
+      "emoji": "⚠️",
+      "category": "business",
+      "action_items": [],
+      "events": []
+    },
+    "geolocation": null,
+    "transcript_segments": null
+  },
+  {
+    "id": "conv_too_recent_should_be_ignored",
+    "created_at": "2026-01-10T21:55:00Z",
+    "started_at": "2026-01-10T21:40:00Z",
+    "finished_at": "2026-01-10T21:58:30Z",
+    "language": "en",
+    "source": "omi",
+    "structured": {
+      "title": "Still Warm",
+      "overview": "This conversation finished very recently and should be skipped until lag passes.",
+      "emoji": "⏳",
+      "category": "business",
+      "action_items": [],
+      "events": []
+    },
+    "geolocation": null,
+    "transcript_segments": [
+      {
+        "speaker": "SPEAKER_00",
+        "start": 0.0,
+        "end": 3.0,
+        "text": "If we sync right now, we might race post-processing.",
+        "is_user": true,
+        "person_id": null
+      }
+    ]
+  },
+  {
+    "id": "conv_with_extra_fields_plugins_postprocessing",
+    "created_at": "2026-01-10T12:00:00Z",
+    "started_at": "2026-01-10T12:00:00Z",
+    "finished_at": "2026-01-10T12:30:00Z",
+    "language": "en",
+    "source": "omi",
+    "structured": {
+      "title": "Plugin-Enhanced Conversation",
+      "overview": "Example including plugins_results and postprocessing fields.",
+      "emoji": "🧩",
+      "category": "business",
+      "action_items": [],
+      "events": []
+    },
+    "geolocation": null,
+    "transcript_segments": [
+      {
+        "speaker": "SPEAKER_00",
+        "start": 0.0,
+        "end": 6.0,
+        "text": "This one has extra fields your parser should ignore safely.",
+        "is_user": true,
+        "person_id": null
+      }
+    ],
+    "plugins_results": {
+      "some_plugin": {
+        "status": "success",
+        "output": {
+          "key": "value"
+        }
+      }
+    },
+    "postprocessing": {
+      "status": "in_progress",
+      "model": "fal_whisperx",
+      "fail_reason": null
+    },
+    "discarded": false,
+    "deleted": false,
+    "visibility": "private"
+  }
+]
